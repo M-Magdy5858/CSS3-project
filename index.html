@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<!-- fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Poppins:wght@400;500;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="./assets/css/style.css" />
+	</head>
+	<body>
+		<!-- Header ( nav-bar & hero-sec) -->
+		<header>
+			<div class="container rel">
+				<!-- Nav bar -->
+				<nav class="flex">
+					<div class="logo btn">
+						<img src="./assets/images/logo-black.svg" alt="logo" />
+					</div>
+					<ul class="flex">
+						<li><a href="" class="activ">menu</a></li>
+						<li><a href="#">about us</a></li>
+						<li><a href="#">our specials</a></li>
+						<li><a href="">our locations</a></li>
+						<li><a href="">our cheffs</a></li>
+					</ul>
+					<div class="nav-icons-wrapper flex">
+						<div class="nav-icon btn">
+							<img src="./assets/images/nav-1.svg" alt="search" />
+						</div>
+						<div class="nav-icon rel btn" id="basket" count="2">
+							<img src="./assets/images/nav-2.svg" alt="basket" />
+						</div>
+						<div class="nav-icon btn">
+							<img src="./assets/images/nav-3.svg" alt="profile" />
+						</div>
+						<div class="nav-icon btn" id="menu-icon">
+							<img src="./assets/images/menu.svg" alt="search" />
+						</div>
+					</div>
+				</nav>
+
+				<!-- Hero section -->
+				<section class="hero rel">
+					<div class="Pagination flex abs">
+						<img src="./assets/images/dot.svg" alt="dot" class="dot" />
+						<img src="./assets/images/dot.svg" alt="dot" class="dot" />
+						<img class="active" src="./assets/images/dot.svg" alt="dot" class="dot" />
+						<img src="./assets/images/dot.svg" alt="dot" class="dot" />
+						<img src="./assets/images/dot.svg" alt="dot" class="dot" />
+					</div>
+					<div class="desc rel">
+						<h6>Now taking online ordres</h6>
+						<h1>
+							kababs
+							<span class="abs">$14.97</span>
+						</h1>
+						<p>
+							Restaurant style Yogurt Mint Sauce is delicious dip which is quick and easy to ... This is a standard
+							Indian mint chutney served with poppadums along with mint and lemon.
+						</p>
+						<div class="btns-wrapper">
+							<button class="red btn rel">Add To Cart</button>
+							<button class="dark btn rel">Book a Table</button>
+						</div>
+						<div class="times">
+							<h5>Lunch</h5>
+							<p>1:00-03:00pm</p>
+						</div>
+						<div class="times">
+							<h5>Dinner</h5>
+							<p>7:00-10:00pm</p>
+						</div>
+					</div>
+				</section>
+				<div class="hero-img rel">
+					<img src="./assets/images/hero.png" alt="" class="rel" />
+					<!-- <div class="overlay"></div> -->
+				</div>
+			</div>
+		</header>
+
+		<!-- Popular Products section-->
+		<section class="products">
+			<div class="container">
+				<!-- header -->
+				<div class="sec-header">
+					<p class="tag">Online Store</p>
+					<h2>Popular Products</h2>
+					<img class="rel" src="./assets/images/Shape.svg" alt="" />
+				</div>
+				<!-- cards -->
+				<div class="cards-wrapper flex">
+					<!-- card 1 -->
+					<div class="card flex">
+						<img class="product-img" src="./assets/images/Product-wings.png" alt="" />
+						<img class="product-rate" src="./assets/images/Rating.svg" alt="5 stars rating" />
+						<p class="style">Chinese</p>
+						<h5 class="name">Hot Wings</h5>
+						<button class="btn flex">
+							<span>Add to Cart</span>
+							<span class="price">$14.00</span>
+						</button>
+					</div>
+					<!-- card 2 -->
+					<div class="card flex">
+						<img class="product-img" src="./assets/images/Product-curry.png" alt="" />
+						<img class="product-rate" src="./assets/images/Rating.svg" alt="5 stars rating" />
+						<p class="style">Indian Style</p>
+						<h5 class="name">Rice with Curry</h5>
+						<button class="btn flex">
+							<span>Add to Cart</span>
+							<span class="price">$22.00</span>
+						</button>
+					</div>
+					<!-- card 3 -->
+					<div class="card flex">
+						<img class="product-img" src="./assets/images/Product-chapatees.png" alt="" />
+						<img class="product-rate" src="./assets/images/Rating.svg" alt="5 stars rating" />
+						<p class="style">Pakistani Style</p>
+						<h5 class="name">Chapatees</h5>
+						<button class="btn flex">
+							<span>Add to Cart</span>
+							<span class="price">$18.00</span>
+						</button>
+					</div>
+					<!-- card 4 -->
+					<div class="card flex">
+						<img class="product-img" src="./assets/images/Product-sweetdish.png" alt="" />
+						<img class="product-rate" src="./assets/images/Rating.svg" alt="5 stars rating" />
+						<p class="style">Western Style</p>
+						<h5 class="name">Sweetdish</h5>
+						<button class="btn flex">
+							<span>Add to Cart</span>
+							<span class="price">$16.00</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- more products section -->
+		<section class="more">
+			<div class="container flex">
+				<!-- categories cards -->
+				<div class="categories rel flex">
+					<!-- card 1 -->
+					<div class="category flex selected">
+						<img src="./assets/images/categ-1.png" alt="" />
+						<span class="category-name">Coffee</span>
+					</div>
+					<!-- card 2 -->
+					<div class="category flex">
+						<img src="./assets/images/categ-2.png" alt="" />
+						<span class="category-name">Fast Food</span>
+					</div>
+					<!-- card 3 -->
+					<div class="category flex">
+						<img src="./assets/images/categ-3.png" alt="" />
+						<span class="category-name">Pizza</span>
+					</div>
+					<!-- card 4 -->
+					<div class="category flex">
+						<img src="./assets/images/categ-4.png" alt="" />
+						<span class="category-name">Desi Menu</span>
+					</div>
+					<!-- card 5 -->
+					<div class="category flex">
+						<img src="./assets/images/categ-5.png" alt="" />
+						<span class="category-name">Desserts</span>
+					</div>
+				</div>
+
+				<!-- food screen -->
+				<div class="screen rel">
+					<img id="screem" class="abs" src="./assets/images/screem group.svg" alt="" />
+					<img id="decor" class="abs" src="./assets/images/Decor.png" alt="" />
+					<img id="leaf" class="abs" src="./assets/images/tree leaf.png" alt="" />
+					<span class="sub-head">
+						Faster Food Delivery Service
+						<img class="rel" src="./assets/images/delivery-man 1.svg" alt="" />
+					</span>
+					<h2>
+						Get delivered
+						<br />
+						while it is still hot.
+					</h2>
+					<p>Bring together your discussions memberships and content. Start your 7-day free trial.</p>
+					<button class="btn-skew btn rel">GET STARTED</button>
+					<div class="cup abs">
+						<img id="coffe" class="abs" src="./assets/images/Coffee .png" alt="" />
+						<img src="./assets/images/Coffee Cup.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- menu section -->
+		<section class="menu">
+			<div class="container">
+				<!-- header -->
+				<div class="sec-header">
+					<p class="tag">Popular menu</p>
+					<h2>Amazing Food Served With Delicacy</h2>
+				</div>
+
+				<!-- cards wrapper -->
+				<div class="cards-wrapper flex">
+					<!-- card 1 -->
+					<div class="card flex">
+						<img src="./assets/images/Dish1.png" alt="" />
+						<div class="card-info">
+							<img src="./assets/images/Rating-2.svg" alt="" />
+							<p class="title">Dishim with Fries and Sause</p>
+							<p class="card-descr">Lorem Ipsum Lorem Ipsum is simply and dummy text of the printing.</p>
+							<div class="card-footer flex">
+								<div class="card-price">$7.10</div>
+								<div class="card-icons">
+									<img class="love btn" src="./assets/images/love-icon.svg" alt="" />
+									<img class="share btn" src="./assets/images/share-icon.svg" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- card 2 -->
+					<div class="card flex">
+						<img src="./assets/images/Dish2.png" alt="" />
+						<div class="card-info">
+							<img src="./assets/images/Rating-2.svg" alt="" />
+							<p class="title">Chicken Hot Wings</p>
+							<p class="card-descr">Lorem Ipsum Lorem Ipsum is simply and dummy text of the printing.</p>
+							<div class="card-footer flex">
+								<div class="card-price">$6.40</div>
+								<div class="card-icons">
+									<img class="love btn" src="./assets/images/love-icon.svg" alt="" />
+									<img class="share btn" src="./assets/images/share-icon.svg" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- card 3 -->
+					<div class="card flex">
+						<img src="./assets/images/Dish3.png" alt="" />
+						<div class="card-info">
+							<img src="./assets/images/Rating-2.svg" alt="" />
+							<p class="title">Samosas with Green Chatni</p>
+							<p class="card-descr">Lorem Ipsum Lorem Ipsum is simply and dummy text of the printing.</p>
+							<div class="card-footer flex">
+								<div class="card-price">$4.80</div>
+								<div class="card-icons">
+									<img class="love btn" src="./assets/images/love-icon.svg" alt="" />
+									<img class="share btn" src="./assets/images/share-icon.svg" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- card 4 -->
+					<div class="card flex">
+						<img src="./assets/images/Dish4.png" alt="" />
+						<div class="card-info">
+							<img src="./assets/images/Rating-2.svg" alt="" />
+							<p class="title">Sweet Sawaiyan</p>
+							<p class="card-descr">Lorem Ipsum Lorem Ipsum is simply and dummy text of the printing.</p>
+							<div class="card-footer flex">
+								<div class="card-price">$5.10</div>
+								<div class="card-icons">
+									<img class="love btn" src="./assets/images/love-icon.svg" alt="" />
+									<img class="share btn" src="./assets/images/share-icon.svg" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- card 5 -->
+					<div class="card flex">
+						<img src="./assets/images/Dish5.png" alt="" />
+						<div class="card-info">
+							<img src="./assets/images/Rating-2.svg" alt="" />
+							<p class="title">Fried Raw Fish</p>
+							<p class="card-descr">Lorem Ipsum Lorem Ipsum is simply and dummy text of the printing.</p>
+							<div class="card-footer flex">
+								<div class="card-price">$3.60</div>
+								<div class="card-icons">
+									<img class="love btn" src="./assets/images/love-icon.svg" alt="" />
+									<img class="share btn" src="./assets/images/share-icon.svg" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- card 6 -->
+					<div class="card flex">
+						<img src="./assets/images/Dish6.png" alt="" />
+						<div class="card-info">
+							<img src="./assets/images/Rating-2.svg" alt="" />
+							<p class="title">Dishim with Fries and Sause</p>
+							<p class="card-descr">Lorem Ipsum Lorem Ipsum is simply and dummy text of the printing.</p>
+							<div class="card-footer flex">
+								<div class="card-price">$6.40</div>
+								<div class="card-icons">
+									<img class="love btn" src="./assets/images/love-icon.svg" alt="" />
+									<img class="share btn" src="./assets/images/share-icon.svg" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="see-all-btn btn rel flex">
+					<p>SEE ALL MENU</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- download app section -->
+		<section class="app">
+			<div class="container flex">
+				<div class="phone">
+					<img src="./assets/images/phone.png" alt="" />
+				</div>
+				<!-- header -->
+				<div class="sec-header">
+					<p class="tag">Download Our App</p>
+					<h2>
+						It’s all here.
+						<br />
+						All in one app.
+					</h2>
+					<p>
+						Discover local, on-demand delivery or Pickup from restaurants, nearby grocery and convenience stores, and
+						more.
+					</p>
+					<div class="store-btns-wrapper">
+						<a href=""><img src="./assets/images/App store.svg" alt="" /></a>
+						<a href=""><img src="./assets/images/Play store.svg" alt="" /></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- testimonials section -->
+		<section class="testimonials">
+			<div class="container">
+				<!-- header -->
+				<div class="sec-header">
+					<p class="tag">Testimonial</p>
+					<h2>What they saying</h2>
+					<img class="rel" src="./assets/images/Shape.svg" alt="" />
+				</div>
+				<!-- card wrapper -->
+				<div class="testemonials-cards flex">
+					<!-- testimonial card 1 -->
+					<div class="testimonial flex">
+						<img src="./assets/images/person1.png" alt="" />
+						<div class="review">
+							<p class="person-name">Natasha Malik</p>
+							<p>California</p>
+							<img src="./assets/images/Rating-3.svg" alt="" />
+							<p>
+								“Him rendered may attended concerns jennings reserved now.
+								<span class="bold-red">Sympathize</span>
+								did now preference unpleasing mrs few. Mrs for
+								<span class="bold-red">hour game</span>
+								room want are fond dare. For detract charmed add talking age. Shy
+								<span class="bold-red">resolution instrument</span>
+								unreserved man few mr at discretion reasonable. Age out full gate bed day lose.”
+							</p>
+						</div>
+					</div>
+					<!-- testimonial card 2 -->
+					<div class="testimonial flex">
+						<img src="./assets/images/person2.png" alt="" />
+						<div class="review">
+							<p class="person-name">AR Shakir</p>
+							<p>Arizona</p>
+							<img src="./assets/images/Rating-3.svg" alt="" />
+							<p>
+								“Out believe has request not how comfort evident. Up
+								<span class="bold-red">delight cousins</span>
+								we feeling minutes. Genius has looked end piqued spring. Down has rose feel find man. Learning day
+								desirous informed expenses material returned six the. She
+								<span class="bold-red">enabled</span>
+								invited exposed him another Shy
+								<span class="bold-red">Reasonably conviction</span>
+								solicitude me mr at discretion reasonable. Age out full gate bed day lose.”
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- discount section -->
+		<section class="discount rel">
+			<!-- header -->
+			<div class="sec-header">
+				<p class="tag">Get special Discounts</p>
+				<img class="rel" src="./assets/images/Shape-small.svg" alt="" />
+			</div>
+			<p>Input email address and complete your subscription to get our special offer.</p>
+			<div class="email-bar rel flex">
+				<p contenteditable="true">shakir260@gmail.com</p>
+				<button class="btn">Subscribe</button>
+			</div>
+		</section>
+
+		<!-- footer section -->
+		<footer>
+			<div class="container">
+				<div class="footer-wrapper flex">
+					<!-- logo column -->
+					<div class="logo">
+						<img src="./assets/images/logo.svg" alt="" />
+						<div class="social flex">
+							<a href="">
+								<img src="./assets/images/facebook-icon.svg" alt="" />
+							</a>
+							<a href="">
+								<img src="./assets/images/twitter-icon.svg" alt="" />
+							</a>
+							<a href="">
+								<img src="./assets/images/instagram-icon.svg" alt="" />
+							</a>
+							<a href="">
+								<img src="./assets/images/linkedin-icon.svg" alt="" />
+							</a>
+						</div>
+					</div>
+
+					<!--contact  column-->
+					<div class="contact">
+						<p class="footer-title">Contact</p>
+						<ul>
+							<li class="flex">
+								<img src="./assets/images/Location.svg" alt="" />
+								<p>F1 - 320 Jeff Heights, Main Blvd, Gulberg, Lahore, Pakistan</p>
+							</li>
+							<li class="flex">
+								<img src="./assets/images/SMS.svg" alt="" />
+								<p>+92 - 300 - 115 - 222 -444</p>
+							</li>
+							<li class="flex">
+								<img src="./assets/images/call.svg" alt="" />
+								<p>support@yannal.com</p>
+							</li>
+						</ul>
+					</div>
+
+					<!--Support  column-->
+
+					<div class="support">
+						<p class="footer-title">Support</p>
+						<ul>
+							<li class="flex"><a href="">Faq</a></li>
+							<li class="flex"><a href="">Shipping & Returns</a></li>
+							<li class="flex"><a href="">Contact Us</a></li>
+							<li class="flex"><a href="">Our Partners</a></li>
+						</ul>
+					</div>
+
+					<!--Support  column-->
+
+					<div class="info">
+						<p class="footer-title">info</p>
+						<ul>
+							<li class="flex"><a href="">Dates</a></li>
+							<li class="flex"><a href="">Parties</a></li>
+							<li class="flex"><a href="">Parties</a></li>
+							<li class="flex"><a href="">Menu</a></li>
+						</ul>
+					</div>
+				</div>
+				<p>©2021 Yannal Resturant</p>
+			</div>
+			<a href=""></a>
+		</footer>
+		<script src="./assets/script.js"></script>
+	</body>
+</html>
